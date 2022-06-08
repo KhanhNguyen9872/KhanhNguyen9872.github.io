@@ -1,0 +1,52 @@
+.content-iframe{
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border: none;
+    z-index: -1;
+}
+
+#myLocation{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#layers{
+    position: absolute;
+    top:0px;
+    left: 35px;
+}
+
+#zoom-out{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+#zoom-in{
+    position: absolute;
+    top:0px;
+    left: 100px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+#searchbar{
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 217px);
+    left: 140px;
+    text-align: center;
+}
+
+#star{
+    position: absolute;
+    right: 35px;
+    top: 0px;
+}
+
+#menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
