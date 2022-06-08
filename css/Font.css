@@ -1,0 +1,17 @@
+@font-face {
+  font-family: UbuntuRegular;
+  src: url(./UbuntuRegular.ttf);
+}
+
+@font-face {
+  font-family: UbuntuMonoRegular;
+  src: url(./UbuntuMonoRegular.ttf);
+}
+
+html,input,textarea,button {
+  font-family: UbuntuRegular;
+}
+
+input {
+  color:white;
+}

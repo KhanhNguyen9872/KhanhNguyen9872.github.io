@@ -1,0 +1,30 @@
+body{
+    background: #222222;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 5px 0px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body > div{
+    transition-duration: 0.2s;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+body > div > div{
+    margin: 0px 25px;
+}
+
+body > div:hover{
+    transition-duration: 0.2s;
+    background: #444444;
+}
+
+.section{
+    border-bottom: 1px #777777 solid;
+}
